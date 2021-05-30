@@ -1,5 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
 
 ##Funnction creates a special "matrix" object that can cache its inverse
 
@@ -34,5 +32,5 @@ cacheSolve <- function(x, ...) {     #function  that returns a matrix that is th
   data <- x$get()
   i <- solve(data, ...)              #If the inverse already calculated(if inverse of the matrix is not changed
   x$setinverse(i)                    #Getting value of the matrix and inversing the matrix
-  i                                  # Returning a matrix that is the inverse of 'x'
-}
+  i                                 
+}                                    # Returning a matrix that is the inverse of 'x'
